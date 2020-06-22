@@ -4,5 +4,18 @@
 #Write a method, .bark, that puts "woof!" when called on an instance of Dog.
 
 class Dog
+  def name=(name)
+    @name = name
+  end
+
+  def name
+    @name
+  end
+
+  def initialize
+    def bark
+      puts "woof!"
+    end
+  end
 
 end
